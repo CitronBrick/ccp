@@ -278,6 +278,10 @@ Support varies per Region. Create policies (backup plans).
 If full support available for Region, then automatically encrypted with KMS key of Backup vault (not source).  
 Locking available. PCI, HIPAA, GDPR etc compliant. Maintains EBS & EC2 lifecycle even after the former's deletion. 
 
+## EBS (Elastic Block Store)
+
+Payment: Gb/month.
+
 ## Snow Family
 
 ### Snowcone
@@ -521,3 +525,50 @@ Use *Standard Contract for AWS Marketplace* as EULA between seller & buyer.
 
 Contact Center as a Service (CCaS). Omni channel cloud contact center.  
 Setup contact center & add agents (available in specific regions only).
+
+# Management
+
+## Well Architected Framework Pillars
+
+* Operational Efficiency
+* Security
+* Reliability
+* Performance Efficiency
+* Cost Optimization
+* Sustainability
+
+
+# Billing
+
+## Pricing Calculator
+
+Create cost estimates for your AWS use case.  
+Useful for both non-prior AWS users, & those who want to expand its usage.
+
+## AWS Cost Management Console
+
+Optimize future costs.
+
+### Cost Explorer
+
+View & analyze costs & usage reports & graphs. View data for last 12 months & forecast for next 12 months. 
+Free UI, 0.01$ per API request. Cannot be disabled after being enabled.
+
+
+## Service Quotas
+
+view & manage AWS quotas from a central location.
+
+## Support Plans
+
+### Basic
+
+For all. 24x7 documentation, whitepapers, re:Post, Trusted Advisor, Personal Health Dashboard.
+
+| Empty | Developer | Business | Enterprise On-Ramp | Enterprise |
+| --- | --- | --- | --- | --- |
+| Trusted Advisor| Basic | All | All | All | All checks + Recommendations |
+| Enhanced support | Cloud associates in Business hours | 24x7 phone, web, chat with Cloud support Engineers, Slack, re:Post priority | = | = |
+| ETA | < 12h | < 1h | < 30min | <15min |
+| Technical Account Manager | - | - | Pool | Dedicated |
+| Concierge support team | - | - | yes | yes |
